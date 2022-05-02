@@ -33,7 +33,7 @@ public class JavaGenericDemo <T extends Comparable<T>>{
 
     public static void main(String[] args) {
         //Welcome message for User
-        System.out.println("Welcome to Java Core - Generics Test Maximum Developed by Tahir Mansuri.");
+        System.out.println("Welcome to Java Core - Generics Test Maximum Developed.");
         //Creating Generic Integer Object for Integer Comparison
         JavaGenericDemo<Integer> integerComparison = new JavaGenericDemo(90,120,190);
         System.out.println("Maximum from 3 Integer Object : "+integerComparison.compareTo());
